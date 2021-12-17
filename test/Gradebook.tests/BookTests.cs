@@ -7,7 +7,7 @@ namespace Gradebook.tests
     public class BookTests
     {
         [Fact]
-        public void Test1()
+        public void BookCalculatesAverageGrade()
         {
             //arrange
             var book = new Book("");
