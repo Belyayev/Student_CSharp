@@ -62,6 +62,22 @@ namespace GradeBook
         }
 
         List<double> grades;
-        public string Name;
+        
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    name = value;
+                }
+            }
+        }
+        
+        private string name;
     }
 }
