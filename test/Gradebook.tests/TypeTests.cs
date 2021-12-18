@@ -15,7 +15,7 @@ namespace Gradebook.tests
             Assert.Equal("New Name", book1.Name);
         }
 
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref Book book, string name) //you can replace ref with out but need to initialize the output
         {
             book = new Book(name);
         }
